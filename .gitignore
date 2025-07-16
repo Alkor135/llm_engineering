@@ -190,3 +190,7 @@ nohup.out
 
 scraper_cache/
 rss_links.txt
+
+# Игнорирование файлов и папок, которые не должны попадать в репозиторий
+week5/vector_db/
+week5/vector_news_db/
