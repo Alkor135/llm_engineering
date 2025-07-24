@@ -196,3 +196,6 @@ week5/vector_db/
 week5/vector_news_db/
 vector_news_db/
 vectorstore/
+chroma_db/
+chroma_db_ollama_compare/
+chroma_db_ollama_graph/
