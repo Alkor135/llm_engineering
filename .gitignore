@@ -199,3 +199,5 @@ vectorstore/
 chroma_db/
 chroma_db_ollama_compare/
 chroma_db_ollama_graph/
+chroma_db_chatgpt_compare/
+chroma_db_chatgpt_graph/
