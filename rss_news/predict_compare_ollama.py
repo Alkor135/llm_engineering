@@ -36,6 +36,9 @@ def compare_vectors():
         n_results=1,  # Только один документ
         where={"next_bar": "None"}
     )
+
+    # Вывод даты из метаданных документа с next_bar="None"
+    # print(none_results['metadatas'][0][0]['date'])  
     
     if not none_results['ids'][0]:
         print("Документ с next_bar='None' не найден.")
@@ -70,7 +73,8 @@ def compare_vectors():
     similarities.sort(key=lambda x: x[0], reverse=True)
     
     # Вывод метаданных и процента сходства для трех ближайших документов
-    print("\nТри ближайших документа по сходству с документом next_bar='None':")
+    print(f"\nТри ближайших документа по сходству с документом next_bar='None' "
+          f"на {none_results['metadatas'][0][0]['date']}:")
     for i, (similarity, metadata, doc_id) in enumerate(similarities[:1], 1):
         print(f"\nДокумент {i}:")
         print(f"Процент сходства: {similarity:.2f}%")
