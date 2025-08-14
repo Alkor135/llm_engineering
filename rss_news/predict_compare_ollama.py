@@ -11,7 +11,8 @@ import numpy as np
 
 # Пути и параметры
 # md_path = Path(r'c:\\Users\\Alkor\\gd\\news_rss_md_rts_21-00')
-md_path = Path(r'c:\\Users\\Alkor\\gd\\news_rss_md_rts_21-00_month')
+# md_path = Path(r'c:\\Users\\Alkor\\gd\\news_rss_md_rts_21-00_month')
+md_path = Path(r'c:/Users/Alkor/gd/md_rss_investing')
 chromadb_path = r'.\\chroma_db_ollama_predict_rts_21-00'
 model_name = "bge-m3"
 url_ai = "http://localhost:11434/api/embeddings"
