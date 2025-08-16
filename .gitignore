@@ -206,4 +206,6 @@ chroma_db_chatgpt_graph_mix/
 chroma_db_ollama_graph_rts_21-00/
 chroma_db_chatgpt_graph_rts_21-00/
 chroma_db_ollama_predict_rts_21-00/
+chroma_db_temp_backtest
 *.db
+*.csv
